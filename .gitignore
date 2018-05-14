@@ -1,0 +1,3 @@
+/extern/bin/spirv-as.exe
+/extern/bin/spirv-dis.exe
+/extern/bin/spirv-val.exe

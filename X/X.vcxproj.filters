@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{aa83f0e1-9564-4f24-8e31-aa4b1a384d02}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{675f0133-d279-4c6f-aced-49a0447a8f75}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{103a0e43-3c40-489b-bb22-fa867091aefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySlider">
+      <UniqueIdentifier>{ea0f8818-6c71-4793-97b2-8f42e86bc6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadMesh">
+      <UniqueIdentifier>{74382194-b2f0-442b-9594-54449b58eefa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{8924570e-31f8-441b-ba32-343bacc23682}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOpenglWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_texture.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DebugSlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DebugSlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRenderWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyRenderWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyRenderWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="USTestDialog.cpp">
+      <Filter>MySlider</Filter>
+    </ClCompile>
+    <ClCompile Include="USSlider.cpp">
+      <Filter>MySlider</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_USSlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_USSlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMesh.cpp">
+      <Filter>ReadMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCamera.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCreateShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MybaseRenderOp.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNormalMapping.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="texture.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DebugSlider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MyRenderWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="USSlider.h">
+      <Filter>MySlider</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bubble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOpenglWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="USTestDialog.h">
+      <Filter>MySlider</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMesh.h">
+      <Filter>ReadMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCreateShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="USShader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MybaseRenderOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gldata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCommanFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNormalMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="X.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="qt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FragmentShaderCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="FragmentShaderPassThroughCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="VertexShaderCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="VertexShaderPassThroughCode.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ComputerShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertex.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragment.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2.1.basic_lighting.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2.1.basic_lighting.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2.1.lamp.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="2.1.lamp.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="point.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="point.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.debug_quad.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.debug_quad_depth.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.shadow_mapping.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.shadow_mapping.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.shadow_mapping_depth.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="3.1.2.shadow_mapping_depth.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lesson1.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lesson1.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lesson5.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="lesson5.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="NormalMappingShader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="NormalMappingShader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
